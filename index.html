@@ -4,40 +4,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>韓国美容院予約代行</title>
+
+  <!-- Google Fonts（Noto Sans KR） -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: sans-serif;
+      font-family:  sans-serif;
       background-color: #fff8f4;
       color: #333;
       text-align: center;
       padding: 40px;
+      margin: 0;
     }
-    h1 {
-      color: #e95b8d;
+
+    header {
+      background-color: #e95b8d;
+      padding: 20px 0;
+      border-radius: 12px;
+      margin-bottom: 40px;
     }
-    a.line-button {
+
+    header h1 {
+      color: #fff;
+      font-size: 28px;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
       display: inline-block;
-      background-color: #06C755;
-      color: white;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-radius: 20px;
+      color: #e95b8d;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 8px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #e95b8d;
+      color: #fff;
+    }
+     h2 {
+      color: #e95b8d;
+      text-align: center;
+    }
+    p {
+      line-height: 1.8;
+    }
+
+    .line-button, .insta-button {
+      display: inline-block;
       padding: 12px 24px;
       border-radius: 30px;
       text-decoration: none;
       font-size: 16px;
-      margin-top: 20px;
+      margin-top: 15px;
+      transition: opacity 0.3s;
     }
-    a.line-button:hover {
+
+    .line-button {
+      background-color: #06C755;
+      color: white;
+    }
+
+    .line-button:hover {
+      opacity: 0.9;
+    }
+
+    .insta-button {
+      background-color: #E4405F;
+      color: white;
+    }
+
+    .insta-button:hover {
       opacity: 0.9;
     }
   </style>
 </head>
 <body>
-  <h1>韓国美容院・メイクアップサロン予約代行</h1>
+
+  <header>
+    <h1>Salon Booking Korea</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="service.html">サービス内容</a>
+      <a href="profile.html">プロフィール</a>
+      <a href="about.html">会社情報</a>
+    </nav>
+  </header>
+    <h2>韓国美容院・サロン予約代行</h2>
   <p>韓国語ができなくても安心！<br>
      あなたの代わりに予約をサポートします💇‍♀️💄</p>
-  <a href="https://lin.ee/your-link" class="line-button" target="_blank">LINEで相談する</a>
-  <p><a href="service.html">→ サービス内容</a></p>
-<p><a href="profile.html">→ 代表プロフィール</a></p>
-<p><a href="about.html">→ 会社情報（About Us）</a></p>
+     ご相談・ご予約は以下のボタンから！</p>
+
+  <a href="https://lin.ee/your-link" class="line-button" target="_blank">LINEで相談する</a><br>
+  <a href="https://www.instagram.com/k_beauty_and_travel_inc/" class="insta-button" target="_blank">Instagramで相談する</a>
 
 </body>
 </html>
